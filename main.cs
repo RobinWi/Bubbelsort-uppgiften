@@ -37,7 +37,7 @@ class MainClass {
      DateTime starta = DateTime.Now;
      BubbleSort(nummer);
      TimeSpan stannadtid = DateTime.Now - starta;
-     Console.WriteLine("Tiden att sortera detta {0:0.00}", stannadtid.TotalMilliseconds);
+     Console.WriteLine("Tiden att sortera detta {0:0.00} ms ", stannadtid.TotalMilliseconds);
      }
    }
 }  
